@@ -1,51 +1,144 @@
-<h1 align="center">Ojulari</h1>
+<h1 align="center">Oluwatobi Wilfred Ojulari</h1>
 
 <p align="center">
-  CS @ Northeastern · I build prediction systems, quant research tooling, and the infrastructure that runs them.
+  <b>Bioinformatics Data Engineer</b> · Toronto, ON
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
-  <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django">
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn">
-  <img src="https://img.shields.io/badge/Nextflow-24B064?style=flat-square&logo=nextflow&logoColor=white" alt="Nextflow">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
-  <img src="https://img.shields.io/badge/MQL5-0A0A0A?style=flat-square" alt="MQL5">
+  MS Bioinformatics @ Northeastern · BSc Computer Science, UNBC<br>
+  I build reproducible genomics pipelines and the production backends that feed them.
+</p>
+
+<p align="center">
+  <a href="https://oluwatobiojulari.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-0A0A0A?style=for-the-badge&logo=netlify&logoColor=00C7B7" alt="Portfolio"></a>
+  <a href="mailto:ojulari1@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://linkedin.com/in/YOUR-HANDLE"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </p>
 
 ---
 
-### What I'm building
+## How I got here
 
-**[UFC-MMA-Predictor](https://github.com/tobioj/UFC-MMA-Predictor)** — Machine-learning fight predictor with a FastAPI + vanilla-JS analytics dashboard. Leakage-safe pipeline, calibrated ~62% accuracy, benchmarked honestly against the betting market.
-`Python` `FastAPI` `scikit-learn`
+I started in general software engineering — three backend roles building REST APIs in Java,
+Node, and Python, shipping auth systems, task queues, and relational schemas that had to survive
+real users. Then I went deep on computational biology at Northeastern, and found that the hard
+problems in genomics are mostly *data engineering* problems wearing a lab coat: workflow
+orchestration, container reproducibility, scheduler contention, memory profiling, and provenance
+you can actually defend.
 
-**[COD-Esport-Predictor](https://github.com/tobioj/COD-Esport-Predictor)** — Roster-aware Call of Duty predictor for CDL / Esports World Cup 2026: mode-calibrated map & series odds, player kill-prop projections, and a 20k-run Monte-Carlo bracket sim.
-`Python` `FastAPI` `Monte-Carlo`
+That's the intersection I work at now. I'm not a biologist who picked up Python, and I'm not an
+engineer who read a genomics tutorial — I write the pipelines *and* the platforms they run on.
 
-**[Homelab-Control-Plane](https://github.com/tobioj/Homelab-Control-Plane)** — Self-hosted PaaS that provisions Django apps end to end (systemd, nginx, Redis, Let's Encrypt DNS-01, observability), with every privileged action previewed before it runs.
-`Python` `Linux` `nginx` `systemd`
-
-**[Reads2genome-HPC-Reproducibility](https://github.com/tobioj/Reads2genome-HPC-Reproducibility)** — Reproduced a containerized Nextflow long-read assembly pipeline on a SLURM cluster. Found and fixed 5 operational gaps; assembled 24 PacBio HiFi genomes.
-`Nextflow` `SLURM` `Singularity`
-
-**[Forex-Quant-Research](https://github.com/tobioj/Forex-Quant-Research)** — A forex EA taken from hypothesis to out-of-sample failure: real-tick backtesting, diagnostics, and the discipline to disprove a false edge.
-`Python` `MQL5`
+**Currently:** finishing my MS in Bioinformatics and looking for bioinformatics data engineering
+roles where pipeline rigor and backend craft both matter.
 
 ---
 
-### How I work
+## Featured work
 
+### 🧬 Bioinformatics & HPC
+
+**[Reads2genome-HPC-Reproducibility](https://github.com/tobioj/Reads2genome-HPC-Reproducibility)**
+Independently reproduced the Arcadia-Science `reads2genome` Nextflow pipeline on Northeastern's
+Explorer SLURM cluster — 24 PacBio HiFi bacterial genomes through a 142-task workflow
+(BAM→FASTQ, Flye assembly, BUSCO, Minimap2, MultiQC).
+
+- **95.1%** first-attempt task success; 7 transient failures auto-recovered to 100% completion
+- **93× parallelization speedup** — 47.8 CPU-hours in 31 minutes wall-clock
+- Diagnosed and fixed **5 undocumented gaps** between the published docs and real HPC constraints, including patching `pacbio.nf` to run BUSCO's `bacteria_odb10` fully offline
+- Assembly quality: **95.3% ± 2.8%** BUSCO completeness, **97.2% ± 2.1%** mapping rate, N50 ≈ 850 kb
+
+`Nextflow DSL2` `SLURM` `Singularity/Apptainer` `Docker` `Flye` `BUSCO` `Minimap2` `MultiQC` `Bash`
+
+> The interesting result wasn't that it reproduced — it's the five things that had to be fixed before it could.
+
+---
+
+### 🏗️ Full-stack platforms
+
+**FindIt-V3 — Multi-Tenant Lost & Found Platform**
+Multi-tenant event platform with role-based access control, guest reporting, and an immutable
+audit trail on every status transition. The core is a custom matching engine scoring candidates
+across three signals: Haversine geospatial proximity decay, Jaccard similarity over tokenized
+text, and `difflib` fuzzy matching for brand classification. Celery + Redis run the async
+matchmaking, event-scoped report expiry, and transactional email. Includes a dynamic
+dealbreaker-penalty layer, a match-resurrection state machine for dismissed matches, and a pytest
+suite covering every state transition.
+
+`Django REST` `React` `Celery` `Redis` `PostgreSQL` `pytest`
+
+**Automated Messaging Platform (AMS)**
+Occasion-based scheduled messaging (birthdays, anniversaries) with admin approval/rejection
+workflows, OAuth2 + JWT auth, role-based access control, and Twilio SMS delivery. Built during my
+Junior Developer role at Chert System Solutions.
+
+`FastAPI` `SQLAlchemy` `PostgreSQL` `Twilio` `OAuth2/JWT`
+
+**[Homelab-Control-Plane](https://github.com/tobioj/Homelab-Control-Plane)**
+Self-hosted PaaS that provisions Django apps end to end on a bare-metal server — systemd units,
+nginx vhosts, Redis, Let's Encrypt DNS-01 certs, and observability. Every privileged action is
+previewed as a diff before it executes.
+
+`Python` `Django` `Linux` `nginx` `systemd`
+
+---
+
+### 📊 Data & ML pipelines
+
+Side projects, but the same discipline: leakage-safe feature engineering, honest calibration, and
+benchmarking against a real baseline instead of a flattering one.
+
+**[UFC-MMA-Predictor](https://github.com/tobioj/UFC-MMA-Predictor)** — ML fight predictor with a
+FastAPI + vanilla-JS analytics dashboard. Leakage-safe pipeline, calibrated ~62% accuracy,
+benchmarked against the betting market. `Python` `FastAPI` `scikit-learn`
+
+**[COD-Esport-Predictor](https://github.com/tobioj/COD-Esport-Predictor)** — Roster-aware CDL /
+Esports World Cup 2026 predictor: mode-calibrated map & series odds, player kill-prop
+projections, 20k-run Monte-Carlo bracket sim. `Python` `FastAPI` `Monte-Carlo`
+
+**[Forex-Quant-Research](https://github.com/tobioj/Forex-Quant-Research)** — A forex EA taken from
+hypothesis to out-of-sample failure. Public *because* the edge didn't hold — real-tick
+backtesting, diagnostics, and the discipline to disprove your own idea. `Python` `MQL5`
+
+---
+
+## Toolkit
+
+| | |
+|---|---|
+| **Languages** | Python · Bash/Shell · Nextflow DSL2 · SQL · Java · JavaScript/Node.js · C/C++ · ARM Assembly |
+| **Bioinformatics** | Flye · Minimap2 · Samtools · BUSCO · QUAST · BLAST · MultiQC |
+| **Pipelines & Infra** | Nextflow · SLURM · Singularity/Apptainer · Docker · Celery · Redis · nginx · systemd |
+| **Backend** | FastAPI · Django REST · SQLAlchemy · pandas · numpy · OAuth2/JWT |
+| **Data** | PostgreSQL · MySQL · pandas · Parquet/FASTA/VCF/BAM wrangling |
+| **Quality** | pytest · pylint · flake8 · Git/GitHub/GitLab |
+
+---
+
+## Experience
+
+| | | |
+|---|---|---|
+| **Junior Developer** | Chert System Solutions, Lagos *(remote)* | Jun–Aug 2025 |
+| **Software Developer Intern** | Schulltech, MD, US *(remote)* | May–Aug 2024 |
+| **Software Developer Intern** | Bluechip Technologies, Lagos | Jun–Aug 2023 |
+
+---
+
+## What I care about
+
+- **Reproducibility is a deliverable.** A pipeline that runs on your laptop and nowhere else isn't finished.
+- **Negative results ship too.** Disproving your own edge is worth more than a result you didn't stress-test.
+- **Preview before you mutate.** Anything touching a live system or a shared cluster shows the diff first.
 - **Calibration over accuracy.** A model that says 62% and means it beats one that says 85% and doesn't.
-- **Negative results ship too.** `Forex-Quant-Research` is public *because* the edge didn't hold — the methodology is the deliverable.
-- **Preview before you mutate.** Anything that touches a live system shows me the diff first.
 
----
+<p align="center">
+  <sub>Open to bioinformatics data engineering roles · <a href="mailto:ojulari1@gmail.com">ojulari1@gmail.com</a></sub>
+</p>
 
-### Reach me
-
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ojulari.o@northeastern.edu)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-HANDLE)
-
-<sub>Two placeholders to fill before pushing: the `<h1>` name and the LinkedIn handle.</sub>
+<!--
+BEFORE PUSHING — fill in:
+  1. linkedin.com/in/YOUR-HANDLE  (line 16)
+  2. FindIt-V3 and AMS have no public repo links. Either push them public and
+     link the headings, or leave as-is (they still read well unlinked).
+-->
