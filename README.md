@@ -20,25 +20,14 @@
 
 ## 👋 About me
 
-I didn't start out chasing genomics. My path began in computer science at the **University of
-Northern British Columbia**, where I learned the fundamentals that still shape how I build today —
-clean architecture, systems thinking, and how to ship software that holds up under real-world
-pressure.
-
-Somewhere along the way, writing good code stopped being enough. I wanted problems where the stakes
-were higher and the standards were stricter — where a result isn't valid unless someone else can
-reproduce it. So I went back to school, this time for **bioinformatics at Northeastern University**,
-trading pure software engineering for the discipline of computational biology.
-
-That shift changed how I approach every project I touch. I'm not just writing code anymore — I'm
-building the way a researcher runs an experiment: carefully, reproducibly, and with a constant eye
-for what could quietly go wrong at scale. Scientific software demands a level of rigor that
-traditional product development rarely asks for.
+Computer science came first — **UNBC**, where I picked up the architecture and systems habits I still
+build on. What pulled me toward **bioinformatics at Northeastern** was a standard I hadn't met in
+product work: in genomics, a result doesn't count until someone else can reproduce it. I now build
+everything that way — assuming someone will try to break it, at a scale I didn't test.
 
 That's the intersection I work at now. I'm not a biologist who picked up Python, and I'm not an
 engineer who skimmed a genomics tutorial — I write the pipelines **and** the platforms they run on.
-It's the standard I bring to every client I work with: **production software built with a
-computational biologist's eye for rigor.**
+Clients get the same discipline: **software built to survive scrutiny, not just a demo.**
 
 - 🧬 Reproduced a published Nextflow pipeline on a SLURM cluster — **24 PacBio HiFi genomes**, 142 tasks, **93× speedup**
 - 🏗️ Built a multi-tenant platform with a **custom geospatial + NLP matching engine**
