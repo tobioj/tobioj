@@ -12,7 +12,7 @@
 
 <img src="https://img.shields.io/badge/📍_Toronto,_ON-1a1b27?style=flat-square" alt="Toronto"/>
 <img src="https://img.shields.io/badge/🎓_MS_Bioinformatics_@_Northeastern-1a1b27?style=flat-square" alt="MS Bioinformatics"/>
-<img src="https://img.shields.io/badge/💼_Open_to_Data_Engineering_roles-1a1b27?style=flat-square" alt="Open to roles"/>
+<img src="https://img.shields.io/badge/💼_Data_engineering_roles_%26_client_builds-1a1b27?style=flat-square" alt="Open to data engineering roles and client builds"/>
 
 </div>
 
@@ -20,21 +20,30 @@
 
 ## 👋 About me
 
+I didn't start out chasing genomics. My path began in computer science at the **University of
+Northern British Columbia**, where I learned the fundamentals that still shape how I build today —
+clean architecture, systems thinking, and how to ship software that holds up under real-world
+pressure.
 
-I started in general software engineering — three backend roles building REST APIs in **Java**,
-**Node.js**, and **Python**, shipping auth systems, task queues, and relational schemas that had to
-survive real users. Then I went deep on computational biology at Northeastern, and found that the
-hard problems in genomics are mostly *data engineering* problems wearing a lab coat: workflow
-orchestration, container reproducibility, scheduler contention, memory profiling, and provenance
-you can actually defend.
+Somewhere along the way, writing good code stopped being enough. I wanted problems where the stakes
+were higher and the standards were stricter — where a result isn't valid unless someone else can
+reproduce it. So I went back to school, this time for **bioinformatics at Northeastern University**,
+trading pure software engineering for the discipline of computational biology.
+
+That shift changed how I approach every project I touch. I'm not just writing code anymore — I'm
+building the way a researcher runs an experiment: carefully, reproducibly, and with a constant eye
+for what could quietly go wrong at scale. Scientific software demands a level of rigor that
+traditional product development rarely asks for.
 
 That's the intersection I work at now. I'm not a biologist who picked up Python, and I'm not an
 engineer who skimmed a genomics tutorial — I write the pipelines **and** the platforms they run on.
+It's the standard I bring to every client I work with: **production software built with a
+computational biologist's eye for rigor.**
 
 - 🧬 Reproduced a published Nextflow pipeline on a SLURM cluster — **24 PacBio HiFi genomes**, 142 tasks, **93× speedup**
 - 🏗️ Built a multi-tenant platform with a **custom geospatial + NLP matching engine**
-- ⚡ Ship across the stack: **C/C++ and ARM assembly** at the metal, **TypeScript/React** at the surface
-- 📊 Calibration over accuracy 
+- 🚀 Ship and operate client software end to end — deploy, monitor, alert, iterate
+- ⚡ Work at every layer: **C and ARM assembly** at the metal, **TypeScript/React** at the surface
 
 ---
 
@@ -343,7 +352,8 @@ benchmarking against a real baseline instead of a flattering one.
 
 ### 📫 Let's talk
 
-I'm open to **bioinformatics data engineering** roles — pipeline rigor and backend craft, together.
+Open to **bioinformatics data engineering** roles, and available for **client builds** — production
+software with a computational biologist's eye for rigor.
 
 <a href="mailto:ojulari1@gmail.com"><img src="https://img.shields.io/badge/ojulari1@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 <a href="https://oluwatobiojulari.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-01BAEF?style=for-the-badge&logo=netlify&logoColor=white" alt="Portfolio"/></a>
