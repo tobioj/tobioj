@@ -8,7 +8,6 @@
   <a href="https://oluwatobiojulari.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-01BAEF?style=for-the-badge&logo=netlify&logoColor=white" alt="Portfolio"/></a>
   <a href="https://linkedin.com/in/YOUR-HANDLE"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:ojulari1@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <img src="https://komarev.com/ghpvc/?username=tobioj&style=for-the-badge&color=20BF55&label=PROFILE+VIEWS" alt="Profile views"/>
 </p>
 
 <img src="https://img.shields.io/badge/📍_Toronto,_ON-1a1b27?style=flat-square" alt="Toronto"/>
@@ -21,13 +20,6 @@
 
 ## 👋 About me
 
-```yaml
-name:      Oluwatobi Wilfred Ojulari
-role:      Bioinformatics Data Engineer
-education: MS Bioinformatics @ Northeastern  ·  BSc Computer Science @ UNBC (2025)
-focus:     reproducible genomics pipelines + the production backends that feed them
-stack:     Python · Nextflow DSL2 · Java/Spring Boot · FastAPI · Django REST · TypeScript
-```
 
 I started in general software engineering — three backend roles building REST APIs in **Java**,
 **Node.js**, and **Python**, shipping auth systems, task queues, and relational schemas that had to
@@ -42,7 +34,7 @@ engineer who skimmed a genomics tutorial — I write the pipelines **and** the p
 - 🧬 Reproduced a published Nextflow pipeline on a SLURM cluster — **24 PacBio HiFi genomes**, 142 tasks, **93× speedup**
 - 🏗️ Built a multi-tenant platform with a **custom geospatial + NLP matching engine**
 - ⚡ Ship across the stack: **C/C++ and ARM assembly** at the metal, **TypeScript/React** at the surface
-- 📊 Calibration over accuracy — and I publish negative results
+- 📊 Calibration over accuracy 
 
 ---
 
@@ -103,14 +95,45 @@ engineer who skimmed a genomics tutorial — I write the pipelines **and** the p
 
 **DevOps & Tooling**
 
-<img src="https://skillicons.dev/icons?i=docker,linux,git,github,gitlab,nginx,netlify,vscode&theme=dark&perline=4" alt="Docker, Linux, Git, GitHub, GitLab, nginx, Netlify, VS Code"/>
+<img src="https://skillicons.dev/icons?i=docker,linux,git,github,gitlab,nginx,vscode,postman&theme=dark&perline=4" alt="Docker, Linux, Git, GitHub, GitLab, nginx, VS Code, Postman"/>
 
 <sub>
+<img src="https://img.shields.io/badge/Singularity-1D355E?style=flat-square&logo=linuxcontainers&logoColor=white" alt="Singularity"/>
+<img src="https://img.shields.io/badge/Apptainer-064E3B?style=flat-square&logo=linuxcontainers&logoColor=white" alt="Apptainer"/>
 <img src="https://img.shields.io/badge/systemd-30B980?style=flat-square&logo=linux&logoColor=white" alt="systemd"/>
 <img src="https://img.shields.io/badge/WSL-4D4D4D?style=flat-square&logo=linux&logoColor=white" alt="WSL"/>
 <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="pytest"/>
 <img src="https://img.shields.io/badge/pylint-341BE8?style=flat-square&logo=python&logoColor=white" alt="pylint"/>
 <img src="https://img.shields.io/badge/flake8-3776AB?style=flat-square&logo=python&logoColor=white" alt="flake8"/>
+</sub>
+
+</td></tr>
+<tr><td valign="top" width="50%">
+
+**Cloud & Deployment**
+
+<img src="https://skillicons.dev/icons?i=aws,cloudflare,vercel,netlify&theme=dark&perline=4" alt="AWS, Cloudflare, Vercel, Netlify"/>
+
+<sub>
+<img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square" alt="AWS"/>
+<img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare"/>
+<img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel"/>
+<img src="https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white" alt="Netlify"/>
+<img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white" alt="Render"/>
+<img src="https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white" alt="Railway"/>
+<img src="https://img.shields.io/badge/DigitalOcean-0080FF?style=flat-square&logo=digitalocean&logoColor=white" alt="DigitalOcean"/>
+</sub>
+
+</td><td valign="top" width="50%">
+
+**Auth, Comms & Integrations**
+
+<sub>
+<img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT"/>
+<img src="https://img.shields.io/badge/OAuth2-EB5424?style=flat-square&logo=auth0&logoColor=white" alt="OAuth2"/>
+<img src="https://img.shields.io/badge/Brevo-0B996E?style=flat-square&logo=brevo&logoColor=white" alt="Brevo"/>
+<img src="https://img.shields.io/badge/Twilio-F22F46?style=flat-square" alt="Twilio"/>
+<img src="https://img.shields.io/badge/Let's_Encrypt-003A70?style=flat-square&logo=letsencrypt&logoColor=white" alt="Let's Encrypt"/>
 </sub>
 
 </td></tr>
@@ -137,60 +160,7 @@ engineer who skimmed a genomics tutorial — I write the pipelines **and** the p
 
 ---
 
-<!-- ══════════════════════════ GITHUB STATS ══════════════════════════ -->
 
-## 📊 GitHub Activity
-
-<div align="center">
-
-<!-- Each card uses <picture> so it renders correctly in BOTH light and dark mode.
-     Only VERIFIED-WORKING services are used here — see PROFILE-SETUP.md §7. -->
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=tobioj&hide_border=true&theme=tokyonight&ring=01BAEF&fire=20BF55&currStreakLabel=01BAEF&border_radius=12"/>
-  <img src="https://streak-stats.demolab.com?user=tobioj&hide_border=true&theme=default&ring=0B4F6C&fire=20BF55&currStreakLabel=0B4F6C&border_radius=12" height="180" alt="Contribution streak"/>
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=tobioj&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity&line=01BAEF&point=20BF55&radius=8"/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tobioj&theme=github-light&hide_border=true&area=true&custom_title=Contribution%20Activity&line=0B4F6C&point=20BF55&radius=8" width="100%" alt="Contribution activity graph"/>
-</picture>
-
-</div>
-
-### Language footprint
-
-```text
-Python            ██████████████████████████████  58.0%
-HTML              ████████                        14.9%
-Jupyter Notebook  █████                           10.3%
-CSS               ██                               4.1%
-ARM Assembly      ██                               3.7%
-JavaScript        ██                               3.3%
-C                 █                                2.5%
-Java              █                                2.0%
-Shell             ▌                                0.8%
-MQL5              ▏                                0.3%
-Jinja             ▏                                0.2%
-```
-
-<sub>Measured across my **public** repositories · 738 KB of source. My private work adds
-**TypeScript**, **C++**, and considerably more **Java/Spring Boot** than the public split suggests.</sub>
-
-<!-- OPTIONAL: the github-readme-stats "total commits / stars" cards were removed because the
-     public instance returns 503 and the trophy service returns 402 (both verified broken).
-     Self-host github-readme-stats on Vercel with your own PAT and it will (a) work reliably and
-     (b) count your PRIVATE commits. Instructions: PROFILE-SETUP.md §7. Then uncomment:
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://YOUR-INSTANCE.vercel.app/api?username=tobioj&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&title_color=01BAEF&icon_color=20BF55&border_radius=12"/>
-  <img src="https://YOUR-INSTANCE.vercel.app/api?username=tobioj&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=default&title_color=0B4F6C&icon_color=20BF55&border_radius=12" height="180" alt="GitHub stats"/>
-</picture>
--->
-
-
-
----
 
 <!-- ══════════════════════════ FEATURED WORK ══════════════════════════ -->
 
