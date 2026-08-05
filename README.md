@@ -341,8 +341,8 @@ benchmarking against a real baseline instead of a flattering one.
 
 ### 📫 Let's talk
 
-Open to **bioinformatics data engineering** roles, and available for **client builds** — production
-software with a computational biologist's eye for rigor.
+Open to **bioinformatics data engineering** roles, and available for **client builds** —
+research-grade rigor, production-grade delivery.
 
 <a href="mailto:ojulari1@gmail.com"><img src="https://img.shields.io/badge/ojulari1@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 <a href="https://oluwatobiojulari.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-01BAEF?style=for-the-badge&logo=netlify&logoColor=white" alt="Portfolio"/></a>
