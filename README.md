@@ -137,6 +137,23 @@ engineer who skimmed a genomics tutorial — I write the pipelines **and** the p
 </sub>
 
 </td></tr>
+<tr><td valign="top" colspan="2">
+
+**Observability & Monitoring**
+
+<sub>
+<img src="https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white" alt="Sentry"/>
+<img src="https://img.shields.io/badge/GlitchTip-6C5CE7?style=flat-square" alt="GlitchTip"/>
+<img src="https://img.shields.io/badge/PostHog-F54E00?style=flat-square&logo=posthog&logoColor=white" alt="PostHog"/>
+<img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" alt="Grafana"/>
+<img src="https://img.shields.io/badge/ntfy-317F6F?style=flat-square&logo=ntfy&logoColor=white" alt="ntfy"/>
+</sub>
+
+<sub>Error tracking (Sentry / self-hosted GlitchTip), product analytics (PostHog), metrics dashboards
+(Grafana), and push alerting (ntfy) — wired into <a href="https://github.com/tobioj/Homelab-Control-Plane">Homelab-Control-Plane</a>
+so a failing deploy pages me instead of going unnoticed.</sub>
+
+</td></tr>
 </table>
 
 **🧬 Bioinformatics & HPC** — the part no template has
@@ -161,6 +178,69 @@ engineer who skimmed a genomics tutorial — I write the pipelines **and** the p
 ---
 
 
+
+<!-- ══════════════════════════ GITHUB ACTIVITY ══════════════════════════ -->
+
+## 📊 GitHub Activity
+
+<div align="center">
+
+<!-- Both cards below were verified live. Each uses <picture> so it renders
+     correctly in light AND dark mode. -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=tobioj&hide_border=true&theme=tokyonight&ring=01BAEF&fire=20BF55&currStreakLabel=01BAEF&border_radius=12"/>
+  <img src="https://streak-stats.demolab.com?user=tobioj&hide_border=true&theme=default&ring=0B4F6C&fire=20BF55&currStreakLabel=0B4F6C&border_radius=12" height="180" alt="Contribution streak"/>
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=tobioj&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity&line=01BAEF&point=20BF55&radius=8"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tobioj&theme=github-light&hide_border=true&area=true&custom_title=Contribution%20Activity&line=0B4F6C&point=20BF55&radius=8" width="100%" alt="Contribution activity graph"/>
+</picture>
+
+</div>
+
+### Language footprint
+
+```text
+Python            ██████████████████████████████  58.0%
+HTML              ████████                        14.9%
+Jupyter Notebook  █████                           10.3%
+CSS               ██                               4.1%
+ARM Assembly      ██                               3.7%
+JavaScript        ██                               3.3%
+C                 █                                2.5%
+Java              █                                2.0%
+Shell             ▌                                0.8%
+MQL5              ▏                                0.3%
+Jinja             ▏                                0.2%
+```
+
+<sub>Measured across my <b>public</b> repositories · 738 KB of source. Counting private work too,
+<b>TypeScript is 14.6%</b> of everything I write — my third-largest language, mostly in client
+projects that aren't open source.</sub>
+
+<!-- ─────────────────────────────────────────────────────────────────────
+     NOT INCLUDED, and why (all re-tested 2026-08-05, multiple retries):
+
+       github-readme-stats.vercel.app    → HTTP 503  (public instance down)
+       github-profile-trophy.vercel.app  → HTTP 402  (Vercel plan exhausted)
+       github-profile-summary-cards      → HTTP 500  (all card types)
+
+     These are the three that every "awesome profile" template recommends.
+     Adding them today = three broken images on your profile.
+
+     To get the stats card working reliably AND counting private commits,
+     self-host it (~5 min, free) — see PROFILE-SETUP.md §7 — then swap in
+     your instance URL and uncomment:
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://YOUR-INSTANCE.vercel.app/api?username=tobioj&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&title_color=01BAEF&icon_color=20BF55&border_radius=12"/>
+  <img src="https://YOUR-INSTANCE.vercel.app/api?username=tobioj&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=default&title_color=0B4F6C&icon_color=20BF55&border_radius=12" height="180" alt="GitHub stats"/>
+</picture>
+     ───────────────────────────────────────────────────────────────────── -->
+
+---
 
 <!-- ══════════════════════════ FEATURED WORK ══════════════════════════ -->
 
@@ -243,7 +323,7 @@ benchmarking against a real baseline instead of a flattering one.
 | **[UFC-MMA-Predictor](https://github.com/tobioj/UFC-MMA-Predictor)** | ML fight predictor + analytics dashboard. Leakage-safe pipeline, calibrated ~62%, benchmarked against the betting market | `Python` `FastAPI` `scikit-learn` `JS` |
 | **[COD-Esport-Predictor](https://github.com/tobioj/COD-Esport-Predictor)** | Roster-aware CDL / EWC 2026 predictor: mode-calibrated map & series odds, kill-prop projections, 20k-run Monte-Carlo bracket sim | `Python` `FastAPI` `Monte-Carlo` |
 | **[Forex-Quant-Research](https://github.com/tobioj/Forex-Quant-Research)** | A forex EA taken from hypothesis to out-of-sample failure. Public *because* the edge didn't hold | `Python` `MQL5` |
-| **[sydney-housing-timeseries](https://github.com/tobioj/time_series_and-_regression)** | Time-series forecasting + regression on Sydney house prices — seasonal decomposition, OLS diagnostics | `Jupyter` `pandas` `statsmodels` |
+| **[sydney-housing-timeseries](https://github.com/tobioj/sydney-housing-timeseries)** | Time-series forecasting + regression on Sydney house prices — seasonal decomposition, OLS diagnostics | `Jupyter` `pandas` `statsmodels` |
 
 ---
 
@@ -300,15 +380,15 @@ I'm open to **bioinformatics data engineering** roles — pipeline rigor and bac
 
 <!--
 ════════════════════ BEFORE PUSHING ════════════════════
-1. Replace BOTH `linkedin.com/in/YOUR-HANDLE` occurrences (header + footer).
-2. FindIt-V3 and AMS have no repo links — make them public and link the
-   headings, or leave unlinked (they still read fine).
-3. Rename `time_series_and-_regression` → `sydney-housing-timeseries`
-   (the link above already points at the OLD name; GitHub auto-redirects
-   after a rename, but update it once you've renamed).
-4. Turn ON Settings → Profile → "Include private contributions on my
-   profile". You have 17 private repos; the graph currently hides them.
-5. Optional: self-host github-readme-stats to add a stats card that counts
+1. ⚠️ BLOCKER — replace BOTH `linkedin.com/in/YOUR-HANDLE` occurrences
+   (header + footer). Do not push with these placeholders live.
+2. `FindIt_v3` (private, note the underscore) and AMS have no repo links.
+   Make FindIt_v3 public and link its heading, or leave unlinked.
+3. Turn ON Settings → Profile → "Include private contributions on my
+   profile". You have 18 private repos; the graph currently hides them all.
+4. Optional: self-host github-readme-stats to add a stats card that counts
    private commits. See PROFILE-SETUP.md §7.
-6. Delete this comment block.
+5. Delete this comment block.
+
+DONE: `sydney-housing-timeseries` renamed and the link above updated.
 -->
