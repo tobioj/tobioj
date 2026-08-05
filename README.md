@@ -6,7 +6,7 @@
 
 <p>
   <a href="https://oluwatobiojulari.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-01BAEF?style=for-the-badge&logo=netlify&logoColor=white" alt="Portfolio"/></a>
-  <a href="https://linkedin.com/in/YOUR-HANDLE"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://www.linkedin.com/in/oluwatobi-ojulari/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:ojulari1@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
@@ -185,14 +185,6 @@ so a failing deploy pages me instead of going unnoticed.</sub>
 
 <div align="center">
 
-<!-- Both cards below were verified live. Each uses <picture> so it renders
-     correctly in light AND dark mode. -->
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=tobioj&hide_border=true&theme=tokyonight&ring=01BAEF&fire=20BF55&currStreakLabel=01BAEF&border_radius=12"/>
-  <img src="https://streak-stats.demolab.com?user=tobioj&hide_border=true&theme=default&ring=0B4F6C&fire=20BF55&currStreakLabel=0B4F6C&border_radius=12" height="180" alt="Contribution streak"/>
-</picture>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=tobioj&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity&line=01BAEF&point=20BF55&radius=8"/>
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=tobioj&theme=github-light&hide_border=true&area=true&custom_title=Contribution%20Activity&line=0B4F6C&point=20BF55&radius=8" width="100%" alt="Contribution activity graph"/>
@@ -200,37 +192,20 @@ so a failing deploy pages me instead of going unnoticed.</sub>
 
 </div>
 
-### Language footprint
-
-```text
-Python            ██████████████████████████████  58.0%
-HTML              ████████                        14.9%
-Jupyter Notebook  █████                           10.3%
-CSS               ██                               4.1%
-ARM Assembly      ██                               3.7%
-JavaScript        ██                               3.3%
-C                 █                                2.5%
-Java              █                                2.0%
-Shell             ▌                                0.8%
-MQL5              ▏                                0.3%
-Jinja             ▏                                0.2%
-```
-
-<sub>Measured across my <b>public</b> repositories · 738 KB of source. Counting private work too,
-<b>TypeScript is 14.6%</b> of everything I write — my third-largest language, mostly in client
-projects that aren't open source.</sub>
-
 <!-- ─────────────────────────────────────────────────────────────────────
-     NOT INCLUDED, and why (all re-tested 2026-08-05, multiple retries):
+     NOT INCLUDED, and why (all tested repeatedly on 2026-08-05):
 
        github-readme-stats.vercel.app    → HTTP 503  (public instance down)
        github-profile-trophy.vercel.app  → HTTP 402  (Vercel plan exhausted)
        github-profile-summary-cards      → HTTP 500  (all card types)
+       streak-stats.demolab.com          → HTTP 200 but renders
+                                           "Failed to retrieve contributions"
+                                           intermittently. A 200 that shows a
+                                           frowny face is still a broken card.
 
-     These are the three that every "awesome profile" template recommends.
-     Adding them today = three broken images on your profile.
+     The first three are what every "awesome profile" template recommends.
 
-     To get the stats card working reliably AND counting private commits,
+     To get a stats card that works reliably AND counts private commits,
      self-host it (~5 min, free) — see PROFILE-SETUP.md §7 — then swap in
      your instance URL and uncomment:
 
@@ -372,23 +347,21 @@ I'm open to **bioinformatics data engineering** roles — pipeline rigor and bac
 
 <a href="mailto:ojulari1@gmail.com"><img src="https://img.shields.io/badge/ojulari1@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 <a href="https://oluwatobiojulari.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-01BAEF?style=for-the-badge&logo=netlify&logoColor=white" alt="Portfolio"/></a>
-<a href="https://linkedin.com/in/YOUR-HANDLE"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://www.linkedin.com/in/oluwatobi-ojulari/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:20BF55,50:01BAEF,100:0B4F6C&height=120&section=footer" width="100%" alt=""/>
 
 </div>
 
 <!--
-════════════════════ BEFORE PUSHING ════════════════════
-1. ⚠️ BLOCKER — replace BOTH `linkedin.com/in/YOUR-HANDLE` occurrences
-   (header + footer). Do not push with these placeholders live.
-2. `FindIt_v3` (private, note the underscore) and AMS have no repo links.
-   Make FindIt_v3 public and link its heading, or leave unlinked.
-3. Turn ON Settings → Profile → "Include private contributions on my
-   profile". You have 18 private repos; the graph currently hides them all.
-4. Optional: self-host github-readme-stats to add a stats card that counts
-   private commits. See PROFILE-SETUP.md §7.
-5. Delete this comment block.
-
-DONE: `sydney-housing-timeseries` renamed and the link above updated.
+════════════════════ STILL TO DO (outside this file) ════════════════════
+1. Settings → Profile → "Include private contributions on my profile".
+   You have 18 private repos; the graph currently hides all of them.
+2. Make one TypeScript repo public to back the TypeScript badge —
+   `multi-storefront-showcase` or `urban-canvas`. It's 14.6% of all the
+   code you write and 0% of what anyone can see.
+3. `FindIt_v3` (private) has no link above. Make it public and link the
+   heading, or leave it unlinked.
+4. Optional: self-host github-readme-stats for a stats card that works
+   and counts private commits. See PROFILE-SETUP.md §7.
 -->
