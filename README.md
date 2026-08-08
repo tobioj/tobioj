@@ -20,19 +20,16 @@
 
 ## 👋 About me
 
-Computer science came first — **UNBC**, where I picked up the architecture and systems habits I still
+Computer science came first **UNBC**, where I picked up the architecture and systems habits I still
 build on. What pulled me toward **bioinformatics at Northeastern** was a standard I hadn't met in
 product work: in genomics, a result doesn't count until someone else can reproduce it. I now build
-everything that way — assuming someone will try to break it, at a scale I didn't test.
+everything that way assuming someone will try to break it, at a scale I didn't test.
 
 That's the intersection I work at now. I'm not a biologist who picked up Python, and I'm not an
-engineer who skimmed a genomics tutorial — I write the pipelines **and** the platforms they run on.
+engineer who skimmed a genomics tutorial I write the pipelines **and** the platforms they run on.
 Clients get the same discipline: **software built to survive scrutiny, not just a demo.**
 
-- 🧬 Reproduced a published Nextflow pipeline on a SLURM cluster — **24 PacBio HiFi genomes**, 142 tasks, **93× speedup**
-- 🏗️ Built a multi-tenant platform with a **custom geospatial + NLP matching engine**
-- 🚀 Ship and operate client software end to end — deploy, monitor, alert, iterate
-- ⚡ Work at every layer: **C and ARM assembly** at the metal, **TypeScript/React** at the surface
+
 
 ---
 
@@ -325,15 +322,6 @@ benchmarking against a real baseline instead of a flattering one.
 
 <!-- ══════════════════════════ PRINCIPLES ══════════════════════════ -->
 
-## 🎯 How I work
-
-> **Reproducibility is a deliverable.** A pipeline that runs on your laptop and nowhere else isn't finished.
-
-> **Negative results ship too.** Disproving your own edge is worth more than a result you never stress-tested.
-
-> **Preview before you mutate.** Anything touching a live system or a shared cluster shows the diff first.
-
-> **Calibration over accuracy.** A model that says 62% and means it beats one that says 85% and doesn't.
 
 ---
 
