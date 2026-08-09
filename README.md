@@ -36,147 +36,6 @@ Clients get the same discipline **software built to survive scrutiny, not just a
 
 ---
 
-<!-- ══════════════════════════ TECH STACK ══════════════════════════ -->
-
-## 🛠️ Tech Stack
-
-<table>
-<tr><td valign="top" width="50%">
-
-**Languages**
-
-<img src="https://skillicons.dev/icons?i=py,java,cpp,c,ts,js,html,css,bash&theme=dark&perline=5" alt="Python, Java, C++, C, TypeScript, JavaScript, HTML5, CSS3, Bash"/>
-
-<sub>
-<img src="https://img.shields.io/badge/Nextflow_DSL2-24B064?style=flat-square&logo=nextflow&logoColor=white" alt="Nextflow DSL2"/>
-<img src="https://img.shields.io/badge/SQL-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" alt="SQL"/>
-<img src="https://img.shields.io/badge/ARM_Assembly-0091BD?style=flat-square&logo=arm&logoColor=white" alt="ARM Assembly"/>
-</sub>
-
-</td><td valign="top" width="50%">
-
-**Backend & Frameworks**
-
-<img src="https://skillicons.dev/icons?i=django,fastapi,spring,nodejs,react&theme=dark&perline=5" alt="Django, FastAPI, Spring Boot, Node.js, React"/>
-
-<sub>
-<img src="https://img.shields.io/badge/Django_REST-092E20?style=flat-square&logo=django&logoColor=44B78B" alt="Django REST"/>
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot"/>
-<img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white" alt="Celery"/>
-<img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy"/>
-<img src="https://img.shields.io/badge/OAuth2_%2F_JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="OAuth2 / JWT"/>
-<img src="https://img.shields.io/badge/OpenAPI-6BA539?style=flat-square&logo=openapiinitiative&logoColor=white" alt="OpenAPI"/>
-</sub>
-
-</td></tr>
-<tr><td valign="top" width="50%">
-
-**Data & ML**
-
-<sub>
-<img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas"/>
-<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy"/>
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn"/>
-<img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter"/>
-<img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=python&logoColor=white" alt="Matplotlib"/>
-</sub>
-
-**Databases**
-
-<img src="https://skillicons.dev/icons?i=postgres,mysql,redis,sqlite&theme=dark&perline=4" alt="PostgreSQL, MySQL, Redis, SQLite"/>
-
-<sub>
-<img src="https://img.shields.io/badge/JPA_%2F_Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white" alt="JPA / Hibernate"/>
-</sub>
-
-</td><td valign="top" width="50%">
-
-**DevOps & Tooling**
-
-<img src="https://skillicons.dev/icons?i=docker,linux,git,github,gitlab,nginx,vscode,postman&theme=dark&perline=4" alt="Docker, Linux, Git, GitHub, GitLab, nginx, VS Code, Postman"/>
-
-<sub>
-<img src="https://img.shields.io/badge/Singularity-1D355E?style=flat-square&logo=linuxcontainers&logoColor=white" alt="Singularity"/>
-<img src="https://img.shields.io/badge/Apptainer-064E3B?style=flat-square&logo=linuxcontainers&logoColor=white" alt="Apptainer"/>
-<img src="https://img.shields.io/badge/systemd-30B980?style=flat-square&logo=linux&logoColor=white" alt="systemd"/>
-<img src="https://img.shields.io/badge/WSL-4D4D4D?style=flat-square&logo=linux&logoColor=white" alt="WSL"/>
-<img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="pytest"/>
-<img src="https://img.shields.io/badge/pylint-341BE8?style=flat-square&logo=python&logoColor=white" alt="pylint"/>
-<img src="https://img.shields.io/badge/flake8-3776AB?style=flat-square&logo=python&logoColor=white" alt="flake8"/>
-</sub>
-
-</td></tr>
-<tr><td valign="top" width="50%">
-
-**Cloud & Deployment**
-
-<img src="https://skillicons.dev/icons?i=aws,cloudflare,vercel,netlify&theme=dark&perline=4" alt="AWS, Cloudflare, Vercel, Netlify"/>
-
-<sub>
-<img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square" alt="AWS"/>
-<img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare"/>
-<img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel"/>
-<img src="https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white" alt="Netlify"/>
-<img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white" alt="Render"/>
-<img src="https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white" alt="Railway"/>
-<img src="https://img.shields.io/badge/DigitalOcean-0080FF?style=flat-square&logo=digitalocean&logoColor=white" alt="DigitalOcean"/>
-</sub>
-
-</td><td valign="top" width="50%">
-
-**Auth, Comms & Integrations**
-
-<sub>
-<img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT"/>
-<img src="https://img.shields.io/badge/OAuth2-EB5424?style=flat-square&logo=auth0&logoColor=white" alt="OAuth2"/>
-<img src="https://img.shields.io/badge/Brevo-0B996E?style=flat-square&logo=brevo&logoColor=white" alt="Brevo"/>
-<img src="https://img.shields.io/badge/Twilio-F22F46?style=flat-square" alt="Twilio"/>
-<img src="https://img.shields.io/badge/Let's_Encrypt-003A70?style=flat-square&logo=letsencrypt&logoColor=white" alt="Let's Encrypt"/>
-</sub>
-
-</td></tr>
-<tr><td valign="top" colspan="2">
-
-**Observability & Monitoring**
-
-<sub>
-<img src="https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white" alt="Sentry"/>
-<img src="https://img.shields.io/badge/GlitchTip-6C5CE7?style=flat-square" alt="GlitchTip"/>
-<img src="https://img.shields.io/badge/PostHog-F54E00?style=flat-square&logo=posthog&logoColor=white" alt="PostHog"/>
-<img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" alt="Grafana"/>
-<img src="https://img.shields.io/badge/ntfy-317F6F?style=flat-square&logo=ntfy&logoColor=white" alt="ntfy"/>
-</sub>
-
-<sub>Error tracking (Sentry / self-hosted GlitchTip), product analytics (PostHog), metrics dashboards
-(Grafana), and push alerting (ntfy) — wired into <a href="https://github.com/tobioj/Homelab-Control-Plane">Homelab-Control-Plane</a>
-so a failing deploy pages me instead of going unnoticed.</sub>
-
-</td></tr>
-</table>
-
-**🧬 Bioinformatics & HPC** — the part no template has
-
-<p>
-  <img src="https://img.shields.io/badge/Nextflow-24B064?style=for-the-badge&logo=nextflow&logoColor=white" alt="Nextflow"/>
-  <img src="https://img.shields.io/badge/SLURM-2C5F8A?style=for-the-badge&logo=linuxfoundation&logoColor=white" alt="SLURM"/>
-  <img src="https://img.shields.io/badge/Singularity%2FApptainer-1D355E?style=for-the-badge&logo=linuxcontainers&logoColor=white" alt="Singularity / Apptainer"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-</p>
-<p>
-  <img src="https://img.shields.io/badge/Flye-6A4C93?style=flat-square" alt="Flye"/>
-  <img src="https://img.shields.io/badge/Minimap2-1982C4?style=flat-square" alt="Minimap2"/>
-  <img src="https://img.shields.io/badge/Samtools-8AC926?style=flat-square" alt="Samtools"/>
-  <img src="https://img.shields.io/badge/BUSCO-FFCA3A?style=flat-square" alt="BUSCO"/>
-  <img src="https://img.shields.io/badge/QUAST-FF924C?style=flat-square" alt="QUAST"/>
-  <img src="https://img.shields.io/badge/BLAST-FF595E?style=flat-square" alt="BLAST"/>
-  <img src="https://img.shields.io/badge/MultiQC-3B5998?style=flat-square" alt="MultiQC"/>
-  <img src="https://img.shields.io/badge/FASTA_·_FASTQ_·_VCF_·_BAM-4D908E?style=flat-square" alt="FASTA FASTQ VCF BAM"/>
-</p>
-
----
-
-
-
 <!-- ══════════════════════════ GITHUB ACTIVITY ══════════════════════════ -->
 
 ## 📊 GitHub Activity
@@ -214,6 +73,148 @@ so a failing deploy pages me instead of going unnoticed.</sub>
      ───────────────────────────────────────────────────────────────────── -->
 
 ---
+
+<!-- ══════════════════════════ TECH STACK ══════════════════════════ -->
+
+## 🛠️ Tech Stack
+
+<table>
+<tr><td valign="top" width="50%">
+
+**Languages**
+
+<img src="https://skillicons.dev/icons?i=py,java,cpp,c,ts,js,html,css,bash&theme=dark&perline=5" width="177" alt="Python, Java, C++, C, TypeScript, JavaScript, HTML5, CSS3, Bash"/>
+
+<sub>
+<img src="https://img.shields.io/badge/Nextflow_DSL2-24B064?style=flat-square&logo=nextflow&logoColor=white" height="16" alt="Nextflow DSL2"/>
+<img src="https://img.shields.io/badge/SQL-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" height="16" alt="SQL"/>
+<img src="https://img.shields.io/badge/ARM_Assembly-0091BD?style=flat-square&logo=arm&logoColor=white" height="16" alt="ARM Assembly"/>
+</sub>
+
+</td><td valign="top" width="50%">
+
+**Backend & Frameworks**
+
+<img src="https://skillicons.dev/icons?i=django,fastapi,spring,nodejs,react&theme=dark&perline=5" width="177" alt="Django, FastAPI, Spring Boot, Node.js, React"/>
+
+<sub>
+<img src="https://img.shields.io/badge/Django_REST-092E20?style=flat-square&logo=django&logoColor=44B78B" height="16" alt="Django REST"/>
+<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" height="16" alt="Spring Boot"/>
+<img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white" height="16" alt="Celery"/>
+<img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" height="16" alt="SQLAlchemy"/>
+<img src="https://img.shields.io/badge/OAuth2_%2F_JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" height="16" alt="OAuth2 / JWT"/>
+<img src="https://img.shields.io/badge/OpenAPI-6BA539?style=flat-square&logo=openapiinitiative&logoColor=white" height="16" alt="OpenAPI"/>
+</sub>
+
+</td></tr>
+<tr><td valign="top" width="50%">
+
+**Data & ML**
+
+<sub>
+<img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" height="16" alt="pandas"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" height="16" alt="NumPy"/>
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" height="16" alt="scikit-learn"/>
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" height="16" alt="Jupyter"/>
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=python&logoColor=white" height="16" alt="Matplotlib"/>
+</sub>
+
+**Databases**
+
+<img src="https://skillicons.dev/icons?i=postgres,mysql,redis,sqlite&theme=dark&perline=4" width="141" alt="PostgreSQL, MySQL, Redis, SQLite"/>
+
+<sub>
+<img src="https://img.shields.io/badge/JPA_%2F_Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white" height="16" alt="JPA / Hibernate"/>
+</sub>
+
+</td><td valign="top" width="50%">
+
+**DevOps & Tooling**
+
+<img src="https://skillicons.dev/icons?i=docker,linux,git,github,gitlab,nginx,vscode,postman&theme=dark&perline=4" width="141" alt="Docker, Linux, Git, GitHub, GitLab, nginx, VS Code, Postman"/>
+
+<sub>
+<img src="https://img.shields.io/badge/Singularity-1D355E?style=flat-square&logo=linuxcontainers&logoColor=white" height="16" alt="Singularity"/>
+<img src="https://img.shields.io/badge/Apptainer-064E3B?style=flat-square&logo=linuxcontainers&logoColor=white" height="16" alt="Apptainer"/>
+<img src="https://img.shields.io/badge/systemd-30B980?style=flat-square&logo=linux&logoColor=white" height="16" alt="systemd"/>
+<img src="https://img.shields.io/badge/WSL-4D4D4D?style=flat-square&logo=linux&logoColor=white" height="16" alt="WSL"/>
+<img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" height="16" alt="pytest"/>
+<img src="https://img.shields.io/badge/pylint-341BE8?style=flat-square&logo=python&logoColor=white" height="16" alt="pylint"/>
+<img src="https://img.shields.io/badge/flake8-3776AB?style=flat-square&logo=python&logoColor=white" height="16" alt="flake8"/>
+</sub>
+
+</td></tr>
+<tr><td valign="top" width="50%">
+
+**Cloud & Deployment**
+
+<img src="https://skillicons.dev/icons?i=aws,cloudflare,vercel,netlify&theme=dark&perline=4" width="141" alt="AWS, Cloudflare, Vercel, Netlify"/>
+
+<sub>
+<img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square" height="16" alt="AWS"/>
+<img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" height="16" alt="Cloudflare"/>
+<img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" height="16" alt="Vercel"/>
+<img src="https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white" height="16" alt="Netlify"/>
+<img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white" height="16" alt="Render"/>
+<img src="https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white" height="16" alt="Railway"/>
+<img src="https://img.shields.io/badge/DigitalOcean-0080FF?style=flat-square&logo=digitalocean&logoColor=white" height="16" alt="DigitalOcean"/>
+</sub>
+
+</td><td valign="top" width="50%">
+
+**Auth, Comms & Integrations**
+
+<sub>
+<img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" height="16" alt="JWT"/>
+<img src="https://img.shields.io/badge/OAuth2-EB5424?style=flat-square&logo=auth0&logoColor=white" height="16" alt="OAuth2"/>
+<img src="https://img.shields.io/badge/Brevo-0B996E?style=flat-square&logo=brevo&logoColor=white" height="16" alt="Brevo"/>
+<img src="https://img.shields.io/badge/Twilio-F22F46?style=flat-square" height="16" alt="Twilio"/>
+<img src="https://img.shields.io/badge/Let's_Encrypt-003A70?style=flat-square&logo=letsencrypt&logoColor=white" height="16" alt="Let's Encrypt"/>
+</sub>
+
+</td></tr>
+<tr><td valign="top" colspan="2">
+
+**Observability & Monitoring**
+
+<sub>
+<img src="https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white" height="16" alt="Sentry"/>
+<img src="https://img.shields.io/badge/GlitchTip-6C5CE7?style=flat-square" height="16" alt="GlitchTip"/>
+<img src="https://img.shields.io/badge/PostHog-F54E00?style=flat-square&logo=posthog&logoColor=white" height="16" alt="PostHog"/>
+<img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" height="16" alt="Grafana"/>
+<img src="https://img.shields.io/badge/ntfy-317F6F?style=flat-square&logo=ntfy&logoColor=white" height="16" alt="ntfy"/>
+</sub>
+
+<sub>Error tracking (Sentry / self-hosted GlitchTip), product analytics (PostHog), metrics dashboards
+(Grafana), and push alerting (ntfy) — wired into <a href="https://github.com/tobioj/Homelab-Control-Plane">Homelab-Control-Plane</a>
+so a failing deploy pages me instead of going unnoticed.</sub>
+
+</td></tr>
+</table>
+
+**🧬 Bioinformatics & HPC** — the part no template has
+
+<p>
+  <img src="https://img.shields.io/badge/Nextflow-24B064?style=for-the-badge&logo=nextflow&logoColor=white" height="22" alt="Nextflow"/>
+  <img src="https://img.shields.io/badge/SLURM-2C5F8A?style=for-the-badge&logo=linuxfoundation&logoColor=white" height="22" alt="SLURM"/>
+  <img src="https://img.shields.io/badge/Singularity%2FApptainer-1D355E?style=for-the-badge&logo=linuxcontainers&logoColor=white" height="22" alt="Singularity / Apptainer"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" height="22" alt="Docker"/>
+</p>
+<p>
+  <img src="https://img.shields.io/badge/Flye-6A4C93?style=flat-square" height="16" alt="Flye"/>
+  <img src="https://img.shields.io/badge/Minimap2-1982C4?style=flat-square" height="16" alt="Minimap2"/>
+  <img src="https://img.shields.io/badge/Samtools-8AC926?style=flat-square" height="16" alt="Samtools"/>
+  <img src="https://img.shields.io/badge/BUSCO-FFCA3A?style=flat-square" height="16" alt="BUSCO"/>
+  <img src="https://img.shields.io/badge/QUAST-FF924C?style=flat-square" height="16" alt="QUAST"/>
+  <img src="https://img.shields.io/badge/BLAST-FF595E?style=flat-square" height="16" alt="BLAST"/>
+  <img src="https://img.shields.io/badge/MultiQC-3B5998?style=flat-square" height="16" alt="MultiQC"/>
+  <img src="https://img.shields.io/badge/FASTA_·_FASTQ_·_VCF_·_BAM-4D908E?style=flat-square" height="16" alt="FASTA FASTQ VCF BAM"/>
+</p>
+
+---
+
+
+
 
 <!-- ══════════════════════════ FEATURED WORK ══════════════════════════ -->
 
