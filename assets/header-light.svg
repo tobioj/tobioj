@@ -15,9 +15,6 @@
   <style>
     .nm { font: 700 40px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; fill: #0B4F6C; letter-spacing: .2px; }
     .ds { font: 500 17px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; fill: #33566b; }
-    .nm, .ds { animation: fadeIn 1.2s ease-in-out both; }
-    .ds { animation-delay: .28s; }
-    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
     
     .bp   { font: 600 11px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; opacity: .55; }
     .trace{ animation: pan 72s linear infinite; }

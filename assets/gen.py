@@ -37,21 +37,11 @@ def titles(t, y1=88, y2=118, align=600):
 
 
 def base_style(t, extra=""):
-    # The title fade is the one-shot entrance capsule-render did, kept as-is:
-    # 1.2s ease-in-out, holding at full opacity. fill-mode `both` (rather than
-    # `forwards`) matters because the tagline is delayed — without it the
-    # tagline would flash at full opacity during its delay, then blink out to
-    # start its fade. With `both` it simply waits at opacity 0.
-    #
-    # Opacity is never set outside @keyframes on purpose: when reduced motion
-    # kills the animation, both lines fall back to their natural opacity of 1
-    # rather than staying invisible.
+    # No entrance animation on the title block — the name and tagline are
+    # painted at full opacity on first frame. Only the background trace moves.
     return f"""
     .nm {{ font: 700 40px {FONT}; fill: {t['ink']}; letter-spacing: .2px; }}
     .ds {{ font: 500 17px {FONT}; fill: {t['sub']}; }}
-    .nm, .ds {{ animation: fadeIn 1.2s ease-in-out both; }}
-    .ds {{ animation-delay: .28s; }}
-    @keyframes fadeIn {{ from {{ opacity: 0; }} to {{ opacity: 1; }} }}
     {extra}
     {REDUCED}"""
 
