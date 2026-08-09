@@ -2,7 +2,10 @@
 
 <!-- ══════════════════════════ HEADER ══════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B4F6C,50:01BAEF,100:20BF55&height=180&section=header&text=Oluwatobi%20Wilfred%20Ojulari&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Bioinformatics%20Data%20Engineer%20%C2%B7%20Full-Stack%20Developer&descAlignY=58&descSize=18" width="100%" alt="Oluwatobi Wilfred Ojulari — Bioinformatics Data Engineer"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg"/>
+  <img src="assets/header-light.svg" width="100%" alt="Oluwatobi Wilfred Ojulari — Bioinformatics Data Engineer · Full-Stack Developer"/>
+</picture>
 
 <p>
   <a href="https://oluwatobiojulari.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-01BAEF?style=for-the-badge&logo=netlify&logoColor=white" alt="Portfolio"/></a>
@@ -22,12 +25,12 @@
 
 Computer science came first **UNBC**, where I picked up the architecture and systems habits I still
 build on. What pulled me toward **bioinformatics at Northeastern** was a standard I hadn't met in
-product work: in genomics, a result doesn't count until someone else can reproduce it. I now build
+product work, in genomics a result doesn't count until someone else can reproduce it. I now build
 everything that way assuming someone will try to break it, at a scale I didn't test.
 
-That's the intersection I work at now. I'm not a biologist who picked up Python, and I'm not an
+That's the intersection I work at now. I'm not a biologist who picked up Python and I'm not an
 engineer who skimmed a genomics tutorial I write the pipelines **and** the platforms they run on.
-Clients get the same discipline: **software built to survive scrutiny, not just a demo.**
+Clients get the same discipline **software built to survive scrutiny, not just a demo.**
 
 
 
@@ -214,97 +217,7 @@ so a failing deploy pages me instead of going unnoticed.</sub>
 
 <!-- ══════════════════════════ FEATURED WORK ══════════════════════════ -->
 
-## 🚀 Featured Work
 
-### 🧬 Bioinformatics & HPC
-
-#### [Reads2genome-HPC-Reproducibility](https://github.com/tobioj/Reads2genome-HPC-Reproducibility)
-Independently reproduced the Arcadia-Science `reads2genome` Nextflow pipeline on Northeastern's
-Explorer SLURM cluster — **24 PacBio HiFi bacterial genomes** through a **142-task workflow**
-(BAM→FASTQ, Flye assembly, BUSCO, Minimap2, MultiQC).
-
-| Metric | Result |
-|---|---|
-| First-attempt task success | **95.1%** — 7 transient failures auto-recovered to 100% |
-| Parallelization speedup | **93×** — 47.8 CPU-hours in 31 min wall-clock |
-| Undocumented gaps found & fixed | **5** — incl. patching `pacbio.nf` for fully offline BUSCO `bacteria_odb10` |
-| BUSCO completeness | **95.3% ± 2.8%** |
-| Read mapping rate | **97.2% ± 2.1%** |
-| Assembly contiguity | **N50 ≈ 850 kb** |
-
-<sub>`Nextflow DSL2` `SLURM` `Singularity/Apptainer` `Docker` `Flye` `BUSCO` `Minimap2` `MultiQC` `Bash`</sub>
-
-> The interesting result wasn't that it reproduced — it's the five things that had to be fixed before it could.
-
----
-
-### 🏗️ Full-Stack Platforms
-
-#### FindIt-V3 — Multi-Tenant Lost & Found Platform
-Multi-tenant event platform with role-based access control, guest reporting, and an **immutable
-audit trail** on every status transition. The core is a **custom matching engine** scoring
-candidates across three signals: Haversine geospatial proximity decay, Jaccard similarity over
-tokenized text, and `difflib` fuzzy matching for brand classification. Celery + Redis drive async
-matchmaking, event-scoped report expiry, and transactional email. Includes a dynamic
-dealbreaker-penalty layer, a **match-resurrection state machine** for dismissed matches, and a
-pytest suite covering every state transition.
-
-<sub>`Django REST` `React` `TypeScript` `Celery` `Redis` `PostgreSQL` `pytest`</sub>
-
-#### Automated Messaging Platform (AMS)
-Occasion-based scheduled messaging with admin approval/rejection workflows, OAuth2 + JWT auth,
-role-based access control, and Twilio SMS delivery. Built during my Junior Developer role at
-Chert System Solutions.
-
-<sub>`FastAPI` `SQLAlchemy` `PostgreSQL` `Twilio` `OAuth2/JWT`</sub>
-
-#### [Homelab-Control-Plane](https://github.com/tobioj/Homelab-Control-Plane)
-Self-hosted PaaS that provisions Django apps end to end on bare metal — systemd units, nginx
-vhosts, Redis, Let's Encrypt DNS-01 certs, and observability. **Every privileged action is previewed
-as a diff before it executes.**
-
-<sub>`Python` `Django` `Linux` `nginx` `systemd` `Redis`</sub>
-
----
-
-### ☕ Java & Backend Services
-
-#### [UserRegistration](https://github.com/tobioj/UserRegistration) — `NinApi`
-RESTful Java user-registry service with full CRUD over JPA and relational persistence. Built during
-my internship at **Bluechip Technologies**, with an emphasis on clean architecture and REST
-principles.
-
-<sub>`Java` `Spring` `JPA` `REST`</sub>
-
-#### [SpringInventory](https://github.com/tobioj/SpringInventory)
-Inventory management REST service in **Spring Boot** — CRUD endpoints backed by JPA persistence.
-
-<sub>`Java` `Spring Boot` `JPA` `REST`</sub>
-
----
-
-### 📊 Data & ML Pipelines
-
-Side projects, same discipline: leakage-safe feature engineering, honest calibration, and
-benchmarking against a real baseline instead of a flattering one.
-
-| Project | What it does | Stack |
-|---|---|---|
-| **[UFC-MMA-Predictor](https://github.com/tobioj/UFC-MMA-Predictor)** | ML fight predictor + analytics dashboard. Leakage-safe pipeline, calibrated ~62%, benchmarked against the betting market | `Python` `FastAPI` `scikit-learn` `JS` |
-| **[COD-Esport-Predictor](https://github.com/tobioj/COD-Esport-Predictor)** | Roster-aware CDL / EWC 2026 predictor: mode-calibrated map & series odds, kill-prop projections, 20k-run Monte-Carlo bracket sim | `Python` `FastAPI` `Monte-Carlo` |
-| **[Forex-Quant-Research](https://github.com/tobioj/Forex-Quant-Research)** | A forex EA taken from hypothesis to out-of-sample failure. Public *because* the edge didn't hold | `Python` `MQL5` |
-| **[sydney-housing-timeseries](https://github.com/tobioj/sydney-housing-timeseries)** | Time-series forecasting + regression on Sydney house prices — seasonal decomposition, OLS diagnostics | `Jupyter` `pandas` `statsmodels` |
-
----
-
-### ⚙️ Embedded & Systems
-
-| Project | What it does | Stack |
-|---|---|---|
-| **[ARM_Calculator](https://github.com/tobioj/ARM_Calculator)** | Modular calculator: C front-end, ARM assembly arithmetic backend. Add/sub/mul/div, factorial, exponentiation, 32-bit input validation | `C` `ARM Assembly` |
-| **[ARM_Traffic_Light](https://github.com/tobioj/ARM_Traffic_Light)** | Four-lane traffic intersection simulation — real-time signal timing with C + assembly hardware control | `C` `ARM Assembly` |
-
----
 
 <!-- ══════════════════════════ EXPERIENCE ══════════════════════════ -->
 
@@ -320,11 +233,6 @@ benchmarking against a real baseline instead of a flattering one.
 
 ---
 
-<!-- ══════════════════════════ PRINCIPLES ══════════════════════════ -->
-
-
----
-
 <div align="center">
 
 ### 📫 Let's talk
@@ -336,19 +244,10 @@ research-grade rigor, production-grade delivery.
 <a href="https://oluwatobiojulari.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-01BAEF?style=for-the-badge&logo=netlify&logoColor=white" alt="Portfolio"/></a>
 <a href="https://www.linkedin.com/in/oluwatobi-ojulari/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:20BF55,50:01BAEF,100:0B4F6C&height=120&section=footer" width="100%" alt=""/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg"/>
+  <img src="assets/footer-light.svg" width="100%" alt=""/>
+</picture>
 
 </div>
 
-<!--
-════════════════════ STILL TO DO (outside this file) ════════════════════
-1. Settings → Profile → "Include private contributions on my profile".
-   You have 18 private repos; the graph currently hides all of them.
-2. Make one TypeScript repo public to back the TypeScript badge —
-   `multi-storefront-showcase` or `urban-canvas`. It's 14.6% of all the
-   code you write and 0% of what anyone can see.
-3. `FindIt_v3` (private) has no link above. Make it public and link the
-   heading, or leave it unlinked.
-4. Optional: self-host github-readme-stats for a stats card that works
-   and counts private commits. See PROFILE-SETUP.md §7.
--->
