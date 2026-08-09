@@ -21,7 +21,7 @@
 
 <!-- ══════════════════════════ ABOUT ══════════════════════════ -->
 
-## 👋 About me
+## About me
 
 Computer science came first **UNBC**, where I picked up the architecture and systems habits I still
 build on. What pulled me toward **bioinformatics at Northeastern** was a standard I hadn't met in
@@ -37,8 +37,8 @@ Clients get the same discipline **software built to survive scrutiny, not just a
 ---
 
 <!-- ══════════════════════════ GITHUB ACTIVITY ══════════════════════════ -->
+## GitHub Activity
 
-## 📊 GitHub Activity
 
 <div align="center">
 
@@ -76,7 +76,7 @@ Clients get the same discipline **software built to survive scrutiny, not just a
 
 <!-- ══════════════════════════ TECH STACK ══════════════════════════ -->
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 <table>
 <tr><td valign="top" width="50%">
@@ -192,7 +192,7 @@ so a failing deploy pages me instead of going unnoticed.</sub>
 </td></tr>
 </table>
 
-**🧬 Bioinformatics & HPC** — the part no template has
+**🧬 Bioinformatics & HPC**
 
 <p>
   <img src="https://img.shields.io/badge/Nextflow-24B064?style=for-the-badge&logo=nextflow&logoColor=white" height="22" alt="Nextflow"/>
@@ -222,7 +222,7 @@ so a failing deploy pages me instead of going unnoticed.</sub>
 
 <!-- ══════════════════════════ EXPERIENCE ══════════════════════════ -->
 
-## 💼 Experience
+## Experience
 
 | Role | Company | When |
 |---|---|---|
