@@ -34,8 +34,6 @@ Clients get the same discipline **software built to survive scrutiny, not just a
 
 
 
----
-
 <!-- ══════════════════════════ TECH STACK ══════════════════════════ -->
 
 ##  Tech Stack
