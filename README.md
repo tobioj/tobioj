@@ -23,7 +23,7 @@
 
 ## About me
 
-I enjoy building the parts of software that people depend on but rarely think about: the APIs, data models, automation and infrastructure that make everything work.
+I enjoy building the parts of software that people depend on but rarely think about the APIs, data models, automation and infrastructure that make everything work.
 
 My background is in Computer Science from the University of Northern British Columbia and I'm currently pursuing an MSc in Bioinformatics at Northeastern University. Along the way, my interests have grown from backend engineering and cloud systems into computational biology, high-performance computing and reproducible data pipelines.
 
