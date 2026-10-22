@@ -34,21 +34,6 @@ Clients get the same discipline **software built to survive scrutiny, not just a
 
 
 
----
-
-<!-- ══════════════════════════ GITHUB ACTIVITY ══════════════════════════ -->
-## GitHub Activity
-
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=tobioj&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity&line=01BAEF&point=20BF55&radius=8"/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tobioj&theme=github-light&hide_border=true&area=true&custom_title=Contribution%20Activity&line=0B4F6C&point=20BF55&radius=8" width="100%" alt="Contribution activity graph"/>
-</picture>
-
-</div>
-
 <!-- ─────────────────────────────────────────────────────────────────────
      NOT INCLUDED, and why (all tested repeatedly on 2026-08-05):
 
