@@ -34,29 +34,6 @@ Clients get the same discipline **software built to survive scrutiny, not just a
 
 
 
-<!-- ─────────────────────────────────────────────────────────────────────
-     NOT INCLUDED, and why (all tested repeatedly on 2026-08-05):
-
-       github-readme-stats.vercel.app    → HTTP 503  (public instance down)
-       github-profile-trophy.vercel.app  → HTTP 402  (Vercel plan exhausted)
-       github-profile-summary-cards      → HTTP 500  (all card types)
-       streak-stats.demolab.com          → HTTP 200 but renders
-                                           "Failed to retrieve contributions"
-                                           intermittently. A 200 that shows a
-                                           frowny face is still a broken card.
-
-     The first three are what every "awesome profile" template recommends.
-
-     To get a stats card that works reliably AND counts private commits,
-     self-host it (~5 min, free) — see PROFILE-SETUP.md §7 — then swap in
-     your instance URL and uncomment:
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://YOUR-INSTANCE.vercel.app/api?username=tobioj&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&title_color=01BAEF&icon_color=20BF55&border_radius=12"/>
-  <img src="https://YOUR-INSTANCE.vercel.app/api?username=tobioj&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=default&title_color=0B4F6C&icon_color=20BF55&border_radius=12" height="180" alt="GitHub stats"/>
-</picture>
-     ───────────────────────────────────────────────────────────────────── -->
-
 ---
 
 <!-- ══════════════════════════ TECH STACK ══════════════════════════ -->
@@ -211,8 +188,8 @@ so a failing deploy pages me instead of going unnoticed.</sub>
 
 | Role | Company | When |
 |---|---|---|
-| **Junior Developer** | Chert System Solutions, Lagos *(remote)* | Jun – Aug 2025 |
-| **Software Developer Intern** | Schulltech, MD, US *(remote)* | May – Aug 2024 |
+| **Junior Developer** | Chert System Solutions, Lagos | Jun – Aug 2025 |
+| **Software Developer Intern** | Schulltech, MD, US | May – Aug 2024 |
 | **Software Developer Intern** | Bluechip Technologies, Lagos | Jun – Aug 2023 |
 
 **Education** — MS Bioinformatics, Northeastern University *(in progress)* · BSc Computer Science, University of Northern British Columbia *(2025)*
