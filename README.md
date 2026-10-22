@@ -23,14 +23,13 @@
 
 ## About me
 
-Computer science came first **UNBC**, where I picked up the architecture and systems habits I still
-build on. What pulled me toward **bioinformatics at Northeastern** was a standard I hadn't met in
-product work, in genomics a result doesn't count until someone else can reproduce it. I now build
-everything that way assuming someone will try to break it, at a scale I didn't test.
+I enjoy building the parts of software that people depend on but rarely think about: the APIs, data models, automation and infrastructure that make everything work.
 
-That's the intersection I work at now. I'm not a biologist who picked up Python and I'm not an
-engineer who skimmed a genomics tutorial I write the pipelines **and** the platforms they run on.
-Clients get the same discipline **software built to survive scrutiny, not just a demo.**
+My background is in Computer Science from the University of Northern British Columbia and I'm currently pursuing an MSc in Bioinformatics at Northeastern University. Along the way, my interests have grown from backend engineering and cloud systems into computational biology, high-performance computing and reproducible data pipelines.
+
+I've worked on everything from platforms handling payments, business operations and complex workflows to tools for processing and analyzing biological data. Different problems, but the same engineering mindset understand the system, make thoughtful architectural decisions and build something that holds up beyond the first successful run.
+
+I'm drawn to problems where software, data and complexity meet. I like turning complicated requirements into clean, dependable systems and I'm always looking for opportunities to build something challenging, useful and worth maintaining.
 
 
 
